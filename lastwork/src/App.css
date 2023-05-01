@@ -1,0 +1,104 @@
+*{
+   box-sizing: border-box;
+   padding:0 ;
+   margin:0 ;
+}
+
+.center{
+  max-width: 960px;
+  margin:0 auto;
+  padding:0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main{
+  padding: 40px 0;
+  width: 100%;
+  background-color: rgb(43, 122, 226);
+  background-image: url(https://www.alura.com.br/artigos/assets/hello-world-em-varias-linguagens/imagem1.gif);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu h3{
+  color: white;
+}
+
+
+.menu a{
+color: white;
+text-decoration: none;
+border:1px solid white;
+padding:5px 8px;
+border-radius: 5px;
+}
+
+.form{
+  display:flex;
+  width: 100%;
+  margin: 10px;
+  max-width: 600px;
+  margin: 120px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form h2 {
+color: rgb(247, 0, 0);
+text-transform: uppercase;
+font-size: 38px;
+}
+
+
+.items form{
+margin: 0 auto;
+max-width: 540px;
+display: flex;
+width: 100%;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.items form input[type=text]{
+width: 48%;
+height: 30px;
+margin: 8px 0px;
+padding-left: 20px;
+}
+
+.items-form input[type=submit]{
+width:87%;
+height: 40px;
+background-color: red;
+cursor: pointer;
+color: white;
+border: 0;
+font-size: 19px;
+}
+
+.conteudo-single{
+  margin-top: 40px;
+  width: 50%;
+  padding: 8px 30px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .items form input[type=text]{
+    width: 100%;
+    
+    } 
+}
+
+.conteudo-single{width: 100%;}
